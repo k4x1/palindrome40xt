@@ -5,7 +5,7 @@
 	(uuid "5b67e7e4-7b9c-457b-a2d8-b25d5b0c8cf3")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x02_Pin"
+		(symbol "Connector_Generic_MountingPin:Conn_01x02_MountingPin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -21,12 +21,13 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
+			(property "Value" "Conn_01x02_MountingPin"
+				(at 1.27 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -47,21 +48,13 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "ki_keywords" "connector"
@@ -73,7 +66,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -82,32 +75,43 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x02_Pin_1_1"
+			(symbol "Conn_01x02_MountingPin_1_1"
 				(rectangle
-					(start 0.8636 0.127)
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
 					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(rectangle
-					(start 0.8636 -2.413)
+					(start -1.27 -2.413)
 					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy 0.8636 0)
+						(xy -1.016 -4.572) (xy 1.016 -4.572)
 					)
 					(stroke
 						(width 0.1524)
@@ -117,20 +121,16 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
+				(text "Mounting"
+					(at 0 -4.191 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -148,7 +148,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -158,6 +158,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1510,167 +1528,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TheEndgame2024:Buzzer"
-			(pin_names
-				(offset 0.0254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "BZ1"
-				(at 3.81 1.2701 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Buzzer"
-				(at 3.81 -1.2699 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Buzzer_Beeper:Buzzer_Mallory_AST1109MLTRQ"
-				(at -0.635 2.54 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at -0.635 2.54 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Buzzer, polarized"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "quartz resonator ceramic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*Buzzer*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Buzzer_0_1"
-				(polyline
-					(pts
-						(xy -1.651 1.905) (xy -1.143 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.397 2.159) (xy -1.397 1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 3.175)
-					(mid 3.1612 0)
-					(end 0 -3.175)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.175) (xy 0 -3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Buzzer_1_1"
-				(pin passive line
-					(at -2.54 2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Transistor_FET:Q_NMOS_GDS"
 			(pin_names
 				(offset 0)
@@ -2174,7 +2031,7 @@
 		(uuid b2cdb2b7-1aed-4e7d-a1a4-720ebb5e5e82)
 	)
 	(rectangle
-		(start 229.87 80.01)
+		(start 204.47 69.85)
 		(end 251.46 90.17)
 		(stroke
 			(width 0)
@@ -2187,7 +2044,7 @@
 	)
 	(text "mm yummy buzzer\n"
 		(exclude_from_sim no)
-		(at 240.538 77.978 0)
+		(at 227.584 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3273,6 +3130,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 140.97) (xy 203.2 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9636c538-c500-454e-ae5a-60f7281d96e7")
+	)
+	(wire
+		(pts
 			(xy 127 119.38) (xy 127 138.43)
 		)
 		(stroke
@@ -3833,27 +3700,6 @@
 		)
 	)
 	(label "COIL_LOW"
-		(at 207.01 129.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "10c32937-b173-4453-aa66-68ed580202b2")
-		(property "COIL_LOW" ""
-			(at 207.01 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(label "COIL_LOW"
 		(at 234.95 113.03 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3865,6 +3711,48 @@
 		(uuid "1462da59-9c5e-4f61-945f-73f3119c6a47")
 		(property "COIL_LOW" ""
 			(at 234.95 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(label "COIL_LOW"
+		(at 198.12 135.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1bfb0775-106e-4b80-a12b-2e8bf263659e")
+		(property "COIL_LOW" ""
+			(at 198.12 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(label "GND"
+		(at 204.47 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35e6cb27-ffcc-4158-8669-3ee9e5dddc2a")
+		(property "GND" ""
+			(at 204.47 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3958,6 +3846,27 @@
 			)
 		)
 	)
+	(label "+5V_SOL"
+		(at 198.12 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6854d3a8-2f95-4f63-b1f0-554628026eda")
+		(property "+12V_SOL" ""
+			(at 198.12 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
 	(label "GND"
 		(at 223.52 160.02 0)
 		(fields_autoplaced yes)
@@ -3970,27 +3879,6 @@
 		(uuid "92999c5b-4eb0-4917-affc-79ef3da25cb9")
 		(property "GND" ""
 			(at 223.52 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(label "+5V_SOL"
-		(at 207.01 127 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ab945af5-8dee-48b3-bf1b-936712e3ff64")
-		(property "+12V_SOL" ""
-			(at 207.01 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4118,28 +4006,6 @@
 		(uuid "017c462c-4fd9-4a9e-b296-ed21b6c4f20f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 182.5961 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Sound"
-		(shape input)
-		(at 238.76 82.55 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0854b3e8-a9a3-42ab-9095-5163d214f226")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.0487 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4721,28 +4587,6 @@
 			)
 		)
 	)
-	(global_label "gnd"
-		(shape input)
-		(at 238.76 87.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bcbbc446-c409-465b-b572-6b3bb606d490")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.3278 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "row1"
 		(shape input)
 		(at 19.05 113.03 180)
@@ -5024,74 +4868,6 @@
 			(project "palindrome45xt"
 				(path "/5b67e7e4-7b9c-457b-a2d8-b25d5b0c8cf3"
 					(reference "D38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 201.93 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "047bb0f4-3137-44d7-bd6f-34dc43d645d7")
-		(property "Reference" "JSOL1"
-			(at 202.565 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 202.565 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Connector_1x02_JST-PH"
-			(at 201.93 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 201.93 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 201.93 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c4dc6652-4a32-4cbe-87dd-e3e304e03570")
-		)
-		(pin "1"
-			(uuid "b3a629c3-88af-4a2d-b905-19fbc4eba408")
-		)
-		(instances
-			(project ""
-				(path "/5b67e7e4-7b9c-457b-a2d8-b25d5b0c8cf3"
-					(reference "JSOL1")
 					(unit 1)
 				)
 			)
@@ -7440,6 +7216,79 @@
 			(project "palindrome45xt"
 				(path "/5b67e7e4-7b9c-457b-a2d8-b25d5b0c8cf3"
 					(reference "S4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x02_MountingPin")
+		(at 203.2 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "591841bb-d6f0-4cc3-a972-306d2a44fdfa")
+		(property "Reference" "JSOL1"
+			(at 205.74 133.7056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_MountingPin"
+			(at 205.74 136.2456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 203.2 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "MP"
+			(uuid "82ffe154-ecd9-41ff-94bb-d786b5106b0b")
+		)
+		(pin "2"
+			(uuid "b9567b7f-6fe2-4a83-a1b2-0db489153601")
+		)
+		(pin "1"
+			(uuid "cd0dc924-44a7-4f65-89ff-955c87ce433d")
+		)
+		(instances
+			(project ""
+				(path "/5b67e7e4-7b9c-457b-a2d8-b25d5b0c8cf3"
+					(reference "JSOL1")
 					(unit 1)
 				)
 			)
@@ -11669,76 +11518,6 @@
 			(project "palindrome45xt"
 				(path "/5b67e7e4-7b9c-457b-a2d8-b25d5b0c8cf3"
 					(reference "D49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TheEndgame2024:Buzzer")
-		(at 241.3 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d7c18df1-9397-42f7-8fa0-d47d4c6accf7")
-		(property "Reference" "BZ2"
-			(at 245.11 84.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Buzzer"
-			(at 245.11 86.995 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TheEndgame2024:Buzzer_Mallory_AST1109MLTRQ"
-			(at 240.665 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 240.665 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 241.3 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "38714681-5d29-4c21-81a5-75043b1b41f7")
-		)
-		(pin "2"
-			(uuid "079b8a6d-d105-49af-aa1c-7adf28eba11d")
-		)
-		(instances
-			(project "palindrome45xt2"
-				(path "/5b67e7e4-7b9c-457b-a2d8-b25d5b0c8cf3"
-					(reference "BZ2")
 					(unit 1)
 				)
 			)
