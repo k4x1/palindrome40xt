@@ -2,14 +2,14 @@ INFO: kbplacer_plugin_action.py:70: Plugin version: 0.14
 INFO: kbplacer_plugin_action.py:71: Python version: '3.11.5 (main, Jun 15 2025, 06:45:45) [MSC v.1942 64 bit (AMD64)]'
 INFO: kbplacer_plugin_action.py:72: KiCad version: 9.0.4 with 4.2.2 msw (phoenix) wxWidgets 3.2.8
 INFO: kbplacer_dialog.py:631: Language: en
-INFO: kbplacer_plugin_action.py:80: GUI state: {"layout_path": "C:\\Users\\kaz\\Downloads\\keyboard-layout.json", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "S{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}, "enable_diode_placement": false, "route_switches_with_diodes": false, "optimize_diodes_orientation": true, "diode_info": {"annotation_format": "D{}", "position_option": "Default", "position": {"x": 5.08, "y": 3.03, "orientation": 90.0, "side": "Back"}, "template_path": ""}, "additional_elements": [{"annotation_format": "ST{}", "position_option": "Custom", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}], "route_rows_and_columns": false, "template_path": "", "generate_outline": true, "outline_delta": 5.0}
+INFO: kbplacer_plugin_action.py:80: GUI state: {"layout_path": "C:\\Users\\kaz\\Downloads\\keyboard-layout.json", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "S{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}, "enable_diode_placement": false, "route_switches_with_diodes": false, "optimize_diodes_orientation": false, "diode_info": {"annotation_format": "D{}", "position_option": "Default", "position": {"x": 5.08, "y": 3.03, "orientation": 90.0, "side": "Back"}, "template_path": ""}, "additional_elements": [{"annotation_format": "ST{}", "position_option": "Custom", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}], "route_rows_and_columns": false, "template_path": "", "generate_outline": false, "outline_delta": 5.0}
 DEBUG: key_placer.py:424: Set key 1U distance: 19050000/19050000
-DEBUG: key_placer.py:141: Switches by nets: defaultdict(<class 'list'>, {frozenset({'row0', 'col3'}): ['S4'], frozenset({'col1', 'row3'}): ['S42'], frozenset({'col5', 'row3'}): ['S45'], frozenset({'row0', 'col0'}): ['S1'], frozenset({'row1', 'col12'}): ['S27'], frozenset({'col9', 'row2'}): ['S38'], frozenset({'row0', 'col1'}): ['S2'], frozenset({'col5', 'row0'}): ['S6'], frozenset({'col6', 'row2'}): ['S35'], frozenset({'row2', 'col7'}): ['S36'], frozenset({'row1', 'col5'}): ['S20'], frozenset({'col10', 'row2'}): ['S39'], frozenset({'col13', 'row0'}): ['S14'], frozenset({'col7', 'row3'}): ['S46'], frozenset({'col9', 'row0'}): ['S10'], frozenset({'col11', 'row3'}): ['S49'], frozenset({'col13', 'row2'}): ['S41'], frozenset({'col6', 'row0'}): ['S7'], frozenset({'row1', 'col9'}): ['S24'], frozenset({'row0', 'col7'}): ['S8'], frozenset({'col2', 'row0'}): ['S3'], frozenset({'col4', 'row2'}): ['S33'], frozenset({'col5', 'row2'}): ['S34'], frozenset({'row1', 'col0'}): ['S15'], frozenset({'row1', 'col3'}): ['S18'], frozenset({'col2', 'row2'}): ['S31'], frozenset({'col10', 'row0'}): ['S11'], frozenset({'row1', 'col11'}): ['S26'], frozenset({'row2', 'col0'}): ['S29'], frozenset({'col11', 'row0'}): ['S12'], frozenset({'row1', 'col6'}): ['S21'], frozenset({'row2', 'col1'}): ['S30'], frozenset({'col9', 'row3'}): ['S47'], frozenset({'row2', 'col3'}): ['S32'], frozenset({'row0', 'col12'}): ['S13'], frozenset({'col2', 'row3'}): ['S43'], frozenset({'row1', 'col13'}): ['S28'], frozenset({'row1', 'col10'}): ['S25'], frozenset({'col4', 'row0'}): ['S5'], frozenset({'col11', 'row2'}): ['S40'], frozenset({'row1', 'col4'}): ['S19'], frozenset({'col3', 'row3'}): ['S44'], frozenset({'row1', 'col1'}): ['S16'], frozenset({'col10', 'row3'}): ['S48'], frozenset({'row1', 'col8'}): ['S23'], frozenset({'row2', 'col8'}): ['S37'], frozenset({'row0', 'col8'}): ['S9'], frozenset({'row1', 'col2'}): ['S17'], frozenset({'row1', 'col7'}): ['S22']})
-DEBUG: key_placer.py:145: Diodes by switch: {'S6': ['D6'], 'S26': ['D26'], 'S22': ['D22'], 'S13': ['D13'], 'S47': ['D47'], 'S35': ['D35'], 'S31': ['D31'], 'S34': ['D34'], 'S27': ['D27'], 'S24': ['D24'], 'S23': ['D23'], 'S25': ['D25'], 'S19': ['D19'], 'S41': ['D41'], 'S29': ['D29'], 'S16': ['D16'], 'S49': ['D49'], 'S36': ['D36'], 'S45': ['D45'], 'S8': ['D8'], 'S1': ['D1'], 'S48': ['D48'], 'S44': ['D44'], 'S17': ['D17'], 'S5': ['D5'], 'S2': ['D2'], 'S20': ['D20'], 'S12': ['D12'], 'S32': ['D32'], 'S33': ['D33'], 'S37': ['D37'], 'S18': ['D18'], 'S38': ['D38'], 'S42': ['D42'], 'S9': ['D9'], 'S46': ['D46'], 'S4': ['D4'], 'S14': ['D14'], 'S11': ['D11'], 'S15': ['D15'], 'S3': ['D3'], 'S21': ['D21'], 'S10': ['D10'], 'S28': ['D28'], 'S43': ['D43'], 'S40': ['D40'], 'S30': ['D30'], 'S39': ['D39'], 'S7': ['D7']}
+DEBUG: key_placer.py:141: Switches by nets: defaultdict(<class 'list'>, {frozenset({'col13', 'row2'}): ['S41'], frozenset({'row0', 'col0'}): ['S1'], frozenset({'row0', 'col1'}): ['S2'], frozenset({'col2', 'row0'}): ['S3'], frozenset({'row0', 'col3'}): ['S4'], frozenset({'col4', 'row0'}): ['S5'], frozenset({'col5', 'row0'}): ['S6'], frozenset({'col6', 'row0'}): ['S7'], frozenset({'row0', 'col7'}): ['S8'], frozenset({'row0', 'col8'}): ['S9'], frozenset({'col9', 'row0'}): ['S10'], frozenset({'col10', 'row0'}): ['S11'], frozenset({'col11', 'row0'}): ['S12'], frozenset({'row0', 'col12'}): ['S13'], frozenset({'col13', 'row0'}): ['S14'], frozenset({'row1', 'col0'}): ['S15'], frozenset({'row1', 'col1'}): ['S16'], frozenset({'row1', 'col2'}): ['S17'], frozenset({'row1', 'col3'}): ['S18'], frozenset({'row1', 'col4'}): ['S19'], frozenset({'row1', 'col5'}): ['S20'], frozenset({'row1', 'col6'}): ['S21'], frozenset({'row1', 'col7'}): ['S22'], frozenset({'row1', 'col8'}): ['S23'], frozenset({'row1', 'col9'}): ['S24'], frozenset({'row1', 'col10'}): ['S25'], frozenset({'row1', 'col11'}): ['S26'], frozenset({'row1', 'col12'}): ['S27'], frozenset({'row1', 'col13'}): ['S28'], frozenset({'row2', 'col0'}): ['S29'], frozenset({'row2', 'col1'}): ['S30'], frozenset({'col2', 'row2'}): ['S31'], frozenset({'row2', 'col3'}): ['S32'], frozenset({'col4', 'row2'}): ['S33'], frozenset({'col5', 'row2'}): ['S34'], frozenset({'col6', 'row2'}): ['S35'], frozenset({'row2', 'col7'}): ['S36'], frozenset({'row2', 'col8'}): ['S37'], frozenset({'col9', 'row2'}): ['S38'], frozenset({'col10', 'row2'}): ['S39'], frozenset({'col11', 'row2'}): ['S40'], frozenset({'col1', 'row3'}): ['S42'], frozenset({'col2', 'row3'}): ['S43'], frozenset({'col3', 'row3'}): ['S44'], frozenset({'col5', 'row3'}): ['S45'], frozenset({'col7', 'row3'}): ['S46'], frozenset({'col9', 'row3'}): ['S47'], frozenset({'col10', 'row3'}): ['S48'], frozenset({'col11', 'row3'}): ['S49']})
+DEBUG: key_placer.py:145: Diodes by switch: {'S41': ['D41'], 'S47': ['D47'], 'S35': ['D35'], 'S31': ['D31'], 'S34': ['D34'], 'S27': ['D27'], 'S24': ['D24'], 'S23': ['D23'], 'S25': ['D25'], 'S19': ['D19'], 'S29': ['D29'], 'S16': ['D16'], 'S49': ['D49'], 'S36': ['D36'], 'S45': ['D45'], 'S8': ['D8'], 'S1': ['D1'], 'S48': ['D48'], 'S44': ['D44'], 'S17': ['D17'], 'S5': ['D5'], 'S22': ['D22'], 'S2': ['D2'], 'S20': ['D20'], 'S12': ['D12'], 'S32': ['D32'], 'S33': ['D33'], 'S37': ['D37'], 'S18': ['D18'], 'S38': ['D38'], 'S42': ['D42'], 'S9': ['D9'], 'S46': ['D46'], 'S4': ['D4'], 'S13': ['D13'], 'S6': ['D6'], 'S14': ['D14'], 'S26': ['D26'], 'S11': ['D11'], 'S15': ['D15'], 'S3': ['D3'], 'S21': ['D21'], 'S10': ['D10'], 'S28': ['D28'], 'S43': ['D43'], 'S40': ['D40'], 'S30': ['D30'], 'S39': ['D39'], 'S7': ['D7']}
 DEBUG: board_modifier.py:73: Searching for S1 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
 INFO: key_placer.py:620: Looking for connection template between S1 and other elements
 DEBUG: board_modifier.py:107: Getting S1 footprint position: (38100000, 38100000)
-INFO: key_placer.py:664: Got connection template: Track [(0, 0) (0, 38100000)], Track [(3803000, -3803000) (0, 0)], Track [(120992240, -3803000) (3803000, -3803000)], Track [(125405000, 609760) (120992240, -3803000)], Track [(125405000, 1905000) (125405000, 609760)], Track [(126040000, 2540000) (125405000, 1905000)], Track [(127952500, 2540000) (126040000, 2540000)], Track [(3920000, 2540000) (-6350000, 2540000)], Track [(5080000, 1380000) (3920000, 2540000)]
+INFO: key_placer.py:664: Got connection template: Track [(3920000, 2540000) (-6350000, 2540000)], Track [(5080000, 1380000) (3920000, 2540000)], Track [(0, 0) (0, 38100000)], Track [(3803000, -3803000) (0, 0)], Track [(120992240, -3803000) (3803000, -3803000)], Track [(124795240, 0) (120992240, -3803000)], Track [(127952500, 0) (124795240, 0)]
 INFO: kle_serial.py:931: User layout: [[{'a': 7}, '', {'x': 0.25, 'a': 4}, 'Esc', 'Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P', {'w': 1.5}, '<-', {'x': 0.25, 'a': 7}, ''], ['', {'x': 0.25, 'a': 4, 'w': 1.25}, 'Tab', 'A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L', ';', {'w': 1.25}, '<_|', {'x': 0.25, 'a': 7}, ''], ['', {'x': 0.25, 'a': 4, 'w': 1.75}, 'Shift', 'Z', 'X', 'C', 'V', 'B', 'N', 'M', '<\n.', '↑', {'w': 1.75}, 'Fn', {'x': 0.25, 'a': 7}, ''], [{'x': 2, 'a': 4}, 'Super', 'Meta', 'Meta', {'a': 7, 'w': 2.25}, '', {'w': 2.75}, '', {'a': 4}, '←', '↓', '→']]
 DEBUG: key_placer.py:724: Layout offset: (28575000, 28575000)
 DEBUG: kle_serial.py:990: Layout with: x_ortholinear_keys=23, y_ortholinear_keys=49, rotated_keys=0, encoders=0, iso_enters=0 and unrecognized_shape_keys=0
@@ -64,89 +64,137 @@ DEBUG: board_modifier.py:94: Setting S47 footprint position: (228600000, 9525000
 DEBUG: board_modifier.py:94: Setting S48 footprint position: (247650000, 95250000)
 DEBUG: board_modifier.py:94: Setting S49 footprint position: (266700000, 95250000)
 INFO: key_placer.py:1078: Diode info: [ElementInfo(annotation_format='D{}', position_option=<PositionOption.UNCHANGED: 'Unchanged'>, position=ElementPosition(x=5.08, y=3.03, orientation=90.0, side=<Side.BACK: 'Back'>), template_path='')]
-DEBUG: key_placer.py:854: Placing additional elements for S4
-DEBUG: board_modifier.py:107: Getting S4 footprint position: (100012500, 38100000)
-DEBUG: board_modifier.py:84: Searching for optional ST4 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
-DEBUG: board_modifier.py:89: Footprint not found
-DEBUG: key_placer.py:854: Placing additional elements for S42
-DEBUG: board_modifier.py:107: Getting S42 footprint position: (76200000, 95250000)
-DEBUG: board_modifier.py:84: Searching for optional ST42 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
-DEBUG: board_modifier.py:89: Footprint not found
-DEBUG: key_placer.py:854: Placing additional elements for S45
-DEBUG: board_modifier.py:107: Getting S45 footprint position: (145256250, 95250000)
-DEBUG: board_modifier.py:84: Searching for optional ST45 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
+DEBUG: key_placer.py:854: Placing additional elements for S41
+DEBUG: board_modifier.py:107: Getting S41 footprint position: (304800000, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST41 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
 DEBUG: board_modifier.py:89: Footprint not found
 DEBUG: key_placer.py:854: Placing additional elements for S1
 DEBUG: board_modifier.py:107: Getting S1 footprint position: (38100000, 38100000)
 DEBUG: board_modifier.py:84: Searching for optional ST1 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
 DEBUG: board_modifier.py:89: Footprint not found
-DEBUG: key_placer.py:854: Placing additional elements for S27
-DEBUG: board_modifier.py:107: Getting S27 footprint position: (278606250, 57150000)
-DEBUG: board_modifier.py:84: Searching for optional ST27 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
-DEBUG: board_modifier.py:89: Footprint not found
-DEBUG: key_placer.py:854: Placing additional elements for S38
-DEBUG: board_modifier.py:107: Getting S38 footprint position: (228600000, 76200000)
-DEBUG: board_modifier.py:84: Searching for optional ST38 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
-DEBUG: board_modifier.py:89: Footprint not found
 DEBUG: key_placer.py:854: Placing additional elements for S2
 DEBUG: board_modifier.py:107: Getting S2 footprint position: (61912500, 38100000)
 DEBUG: board_modifier.py:84: Searching for optional ST2 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S3
+DEBUG: board_modifier.py:107: Getting S3 footprint position: (80962500, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST3 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S4
+DEBUG: board_modifier.py:107: Getting S4 footprint position: (100012500, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST4 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S5
+DEBUG: board_modifier.py:107: Getting S5 footprint position: (119062500, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST5 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
 DEBUG: board_modifier.py:89: Footprint not found
 DEBUG: key_placer.py:854: Placing additional elements for S6
 DEBUG: board_modifier.py:107: Getting S6 footprint position: (138112500, 38100000)
 DEBUG: board_modifier.py:84: Searching for optional ST6 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
 DEBUG: board_modifier.py:89: Footprint not found
-DEBUG: key_placer.py:854: Placing additional elements for S35
-DEBUG: board_modifier.py:107: Getting S35 footprint position: (171450000, 76200000)
-DEBUG: board_modifier.py:84: Searching for optional ST35 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
-DEBUG: board_modifier.py:89: Footprint not found
-DEBUG: key_placer.py:854: Placing additional elements for S36
-DEBUG: board_modifier.py:107: Getting S36 footprint position: (190500000, 76200000)
-DEBUG: board_modifier.py:84: Searching for optional ST36 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
-DEBUG: board_modifier.py:89: Footprint not found
-DEBUG: key_placer.py:854: Placing additional elements for S20
-DEBUG: board_modifier.py:107: Getting S20 footprint position: (142875000, 57150000)
-DEBUG: board_modifier.py:84: Searching for optional ST20 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
-DEBUG: board_modifier.py:89: Footprint not found
-DEBUG: key_placer.py:854: Placing additional elements for S39
-DEBUG: board_modifier.py:107: Getting S39 footprint position: (247650000, 76200000)
-DEBUG: board_modifier.py:84: Searching for optional ST39 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
-DEBUG: board_modifier.py:89: Footprint not found
-DEBUG: key_placer.py:854: Placing additional elements for S14
-DEBUG: board_modifier.py:107: Getting S14 footprint position: (304800000, 38100000)
-DEBUG: board_modifier.py:84: Searching for optional ST14 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
-DEBUG: board_modifier.py:89: Footprint not found
-DEBUG: key_placer.py:854: Placing additional elements for S46
-DEBUG: board_modifier.py:107: Getting S46 footprint position: (192881250, 95250000)
-DEBUG: board_modifier.py:84: Searching for optional ST46 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
-DEBUG: board_modifier.py:89: Footprint not found
-DEBUG: key_placer.py:854: Placing additional elements for S10
-DEBUG: board_modifier.py:107: Getting S10 footprint position: (214312500, 38100000)
-DEBUG: board_modifier.py:84: Searching for optional ST10 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
-DEBUG: board_modifier.py:89: Footprint not found
-DEBUG: key_placer.py:854: Placing additional elements for S49
-DEBUG: board_modifier.py:107: Getting S49 footprint position: (266700000, 95250000)
-DEBUG: board_modifier.py:84: Searching for optional ST49 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
-DEBUG: board_modifier.py:89: Footprint not found
-DEBUG: key_placer.py:854: Placing additional elements for S41
-DEBUG: board_modifier.py:107: Getting S41 footprint position: (304800000, 76200000)
-DEBUG: board_modifier.py:84: Searching for optional ST41 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
-DEBUG: board_modifier.py:89: Footprint not found
 DEBUG: key_placer.py:854: Placing additional elements for S7
 DEBUG: board_modifier.py:107: Getting S7 footprint position: (157162500, 38100000)
 DEBUG: board_modifier.py:84: Searching for optional ST7 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
-DEBUG: board_modifier.py:89: Footprint not found
-DEBUG: key_placer.py:854: Placing additional elements for S24
-DEBUG: board_modifier.py:107: Getting S24 footprint position: (219075000, 57150000)
-DEBUG: board_modifier.py:84: Searching for optional ST24 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
 DEBUG: board_modifier.py:89: Footprint not found
 DEBUG: key_placer.py:854: Placing additional elements for S8
 DEBUG: board_modifier.py:107: Getting S8 footprint position: (176212500, 38100000)
 DEBUG: board_modifier.py:84: Searching for optional ST8 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
 DEBUG: board_modifier.py:89: Footprint not found
-DEBUG: key_placer.py:854: Placing additional elements for S3
-DEBUG: board_modifier.py:107: Getting S3 footprint position: (80962500, 38100000)
-DEBUG: board_modifier.py:84: Searching for optional ST3 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
+DEBUG: key_placer.py:854: Placing additional elements for S9
+DEBUG: board_modifier.py:107: Getting S9 footprint position: (195262500, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST9 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S10
+DEBUG: board_modifier.py:107: Getting S10 footprint position: (214312500, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST10 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S11
+DEBUG: board_modifier.py:107: Getting S11 footprint position: (233362500, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST11 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S12
+DEBUG: board_modifier.py:107: Getting S12 footprint position: (252412500, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST12 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S13
+DEBUG: board_modifier.py:107: Getting S13 footprint position: (276225000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST13 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S14
+DEBUG: board_modifier.py:107: Getting S14 footprint position: (304800000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST14 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S15
+DEBUG: board_modifier.py:107: Getting S15 footprint position: (38100000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST15 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S16
+DEBUG: board_modifier.py:107: Getting S16 footprint position: (64293750, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST16 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S17
+DEBUG: board_modifier.py:107: Getting S17 footprint position: (85725000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST17 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S18
+DEBUG: board_modifier.py:107: Getting S18 footprint position: (104775000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST18 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S19
+DEBUG: board_modifier.py:107: Getting S19 footprint position: (123825000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST19 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S20
+DEBUG: board_modifier.py:107: Getting S20 footprint position: (142875000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST20 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S21
+DEBUG: board_modifier.py:107: Getting S21 footprint position: (161925000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST21 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S22
+DEBUG: board_modifier.py:107: Getting S22 footprint position: (180975000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST22 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S23
+DEBUG: board_modifier.py:107: Getting S23 footprint position: (200025000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST23 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S24
+DEBUG: board_modifier.py:107: Getting S24 footprint position: (219075000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST24 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S25
+DEBUG: board_modifier.py:107: Getting S25 footprint position: (238125000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST25 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S26
+DEBUG: board_modifier.py:107: Getting S26 footprint position: (257175000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST26 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S27
+DEBUG: board_modifier.py:107: Getting S27 footprint position: (278606250, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST27 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S28
+DEBUG: board_modifier.py:107: Getting S28 footprint position: (304800000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST28 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S29
+DEBUG: board_modifier.py:107: Getting S29 footprint position: (38100000, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST29 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S30
+DEBUG: board_modifier.py:107: Getting S30 footprint position: (69056250, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST30 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S31
+DEBUG: board_modifier.py:107: Getting S31 footprint position: (95250000, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST31 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S32
+DEBUG: board_modifier.py:107: Getting S32 footprint position: (114300000, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST32 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
 DEBUG: board_modifier.py:89: Footprint not found
 DEBUG: key_placer.py:854: Placing additional elements for S33
 DEBUG: board_modifier.py:107: Getting S33 footprint position: (133350000, 76200000)
@@ -156,108 +204,59 @@ DEBUG: key_placer.py:854: Placing additional elements for S34
 DEBUG: board_modifier.py:107: Getting S34 footprint position: (152400000, 76200000)
 DEBUG: board_modifier.py:84: Searching for optional ST34 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
 DEBUG: board_modifier.py:89: Footprint not found
-DEBUG: key_placer.py:854: Placing additional elements for S15
-DEBUG: board_modifier.py:107: Getting S15 footprint position: (38100000, 57150000)
-DEBUG: board_modifier.py:84: Searching for optional ST15 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
+DEBUG: key_placer.py:854: Placing additional elements for S35
+DEBUG: board_modifier.py:107: Getting S35 footprint position: (171450000, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST35 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
 DEBUG: board_modifier.py:89: Footprint not found
-DEBUG: key_placer.py:854: Placing additional elements for S18
-DEBUG: board_modifier.py:107: Getting S18 footprint position: (104775000, 57150000)
-DEBUG: board_modifier.py:84: Searching for optional ST18 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
-DEBUG: board_modifier.py:89: Footprint not found
-DEBUG: key_placer.py:854: Placing additional elements for S31
-DEBUG: board_modifier.py:107: Getting S31 footprint position: (95250000, 76200000)
-DEBUG: board_modifier.py:84: Searching for optional ST31 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
-DEBUG: board_modifier.py:89: Footprint not found
-DEBUG: key_placer.py:854: Placing additional elements for S11
-DEBUG: board_modifier.py:107: Getting S11 footprint position: (233362500, 38100000)
-DEBUG: board_modifier.py:84: Searching for optional ST11 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
-DEBUG: board_modifier.py:89: Footprint not found
-DEBUG: key_placer.py:854: Placing additional elements for S26
-DEBUG: board_modifier.py:107: Getting S26 footprint position: (257175000, 57150000)
-DEBUG: board_modifier.py:84: Searching for optional ST26 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
-DEBUG: board_modifier.py:89: Footprint not found
-DEBUG: key_placer.py:854: Placing additional elements for S29
-DEBUG: board_modifier.py:107: Getting S29 footprint position: (38100000, 76200000)
-DEBUG: board_modifier.py:84: Searching for optional ST29 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
-DEBUG: board_modifier.py:89: Footprint not found
-DEBUG: key_placer.py:854: Placing additional elements for S12
-DEBUG: board_modifier.py:107: Getting S12 footprint position: (252412500, 38100000)
-DEBUG: board_modifier.py:84: Searching for optional ST12 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
-DEBUG: board_modifier.py:89: Footprint not found
-DEBUG: key_placer.py:854: Placing additional elements for S21
-DEBUG: board_modifier.py:107: Getting S21 footprint position: (161925000, 57150000)
-DEBUG: board_modifier.py:84: Searching for optional ST21 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
-DEBUG: board_modifier.py:89: Footprint not found
-DEBUG: key_placer.py:854: Placing additional elements for S30
-DEBUG: board_modifier.py:107: Getting S30 footprint position: (69056250, 76200000)
-DEBUG: board_modifier.py:84: Searching for optional ST30 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
-DEBUG: board_modifier.py:89: Footprint not found
-DEBUG: key_placer.py:854: Placing additional elements for S47
-DEBUG: board_modifier.py:107: Getting S47 footprint position: (228600000, 95250000)
-DEBUG: board_modifier.py:84: Searching for optional ST47 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
-DEBUG: board_modifier.py:89: Footprint not found
-DEBUG: key_placer.py:854: Placing additional elements for S32
-DEBUG: board_modifier.py:107: Getting S32 footprint position: (114300000, 76200000)
-DEBUG: board_modifier.py:84: Searching for optional ST32 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
-DEBUG: board_modifier.py:89: Footprint not found
-DEBUG: key_placer.py:854: Placing additional elements for S13
-DEBUG: board_modifier.py:107: Getting S13 footprint position: (276225000, 38100000)
-DEBUG: board_modifier.py:84: Searching for optional ST13 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
-DEBUG: board_modifier.py:89: Footprint not found
-DEBUG: key_placer.py:854: Placing additional elements for S43
-DEBUG: board_modifier.py:107: Getting S43 footprint position: (95250000, 95250000)
-DEBUG: board_modifier.py:84: Searching for optional ST43 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
-DEBUG: board_modifier.py:89: Footprint not found
-DEBUG: key_placer.py:854: Placing additional elements for S28
-DEBUG: board_modifier.py:107: Getting S28 footprint position: (304800000, 57150000)
-DEBUG: board_modifier.py:84: Searching for optional ST28 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
-DEBUG: board_modifier.py:89: Footprint not found
-DEBUG: key_placer.py:854: Placing additional elements for S25
-DEBUG: board_modifier.py:107: Getting S25 footprint position: (238125000, 57150000)
-DEBUG: board_modifier.py:84: Searching for optional ST25 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
-DEBUG: board_modifier.py:89: Footprint not found
-DEBUG: key_placer.py:854: Placing additional elements for S5
-DEBUG: board_modifier.py:107: Getting S5 footprint position: (119062500, 38100000)
-DEBUG: board_modifier.py:84: Searching for optional ST5 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
-DEBUG: board_modifier.py:89: Footprint not found
-DEBUG: key_placer.py:854: Placing additional elements for S40
-DEBUG: board_modifier.py:107: Getting S40 footprint position: (273843750, 76200000)
-DEBUG: board_modifier.py:84: Searching for optional ST40 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
-DEBUG: board_modifier.py:89: Footprint not found
-DEBUG: key_placer.py:854: Placing additional elements for S19
-DEBUG: board_modifier.py:107: Getting S19 footprint position: (123825000, 57150000)
-DEBUG: board_modifier.py:84: Searching for optional ST19 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
-DEBUG: board_modifier.py:89: Footprint not found
-DEBUG: key_placer.py:854: Placing additional elements for S44
-DEBUG: board_modifier.py:107: Getting S44 footprint position: (114300000, 95250000)
-DEBUG: board_modifier.py:84: Searching for optional ST44 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
-DEBUG: board_modifier.py:89: Footprint not found
-DEBUG: key_placer.py:854: Placing additional elements for S16
-DEBUG: board_modifier.py:107: Getting S16 footprint position: (64293750, 57150000)
-DEBUG: board_modifier.py:84: Searching for optional ST16 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
-DEBUG: board_modifier.py:89: Footprint not found
-DEBUG: key_placer.py:854: Placing additional elements for S48
-DEBUG: board_modifier.py:107: Getting S48 footprint position: (247650000, 95250000)
-DEBUG: board_modifier.py:84: Searching for optional ST48 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
-DEBUG: board_modifier.py:89: Footprint not found
-DEBUG: key_placer.py:854: Placing additional elements for S23
-DEBUG: board_modifier.py:107: Getting S23 footprint position: (200025000, 57150000)
-DEBUG: board_modifier.py:84: Searching for optional ST23 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
+DEBUG: key_placer.py:854: Placing additional elements for S36
+DEBUG: board_modifier.py:107: Getting S36 footprint position: (190500000, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST36 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
 DEBUG: board_modifier.py:89: Footprint not found
 DEBUG: key_placer.py:854: Placing additional elements for S37
 DEBUG: board_modifier.py:107: Getting S37 footprint position: (209550000, 76200000)
 DEBUG: board_modifier.py:84: Searching for optional ST37 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
 DEBUG: board_modifier.py:89: Footprint not found
-DEBUG: key_placer.py:854: Placing additional elements for S9
-DEBUG: board_modifier.py:107: Getting S9 footprint position: (195262500, 38100000)
-DEBUG: board_modifier.py:84: Searching for optional ST9 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
+DEBUG: key_placer.py:854: Placing additional elements for S38
+DEBUG: board_modifier.py:107: Getting S38 footprint position: (228600000, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST38 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
 DEBUG: board_modifier.py:89: Footprint not found
-DEBUG: key_placer.py:854: Placing additional elements for S17
-DEBUG: board_modifier.py:107: Getting S17 footprint position: (85725000, 57150000)
-DEBUG: board_modifier.py:84: Searching for optional ST17 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
+DEBUG: key_placer.py:854: Placing additional elements for S39
+DEBUG: board_modifier.py:107: Getting S39 footprint position: (247650000, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST39 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
 DEBUG: board_modifier.py:89: Footprint not found
-DEBUG: key_placer.py:854: Placing additional elements for S22
-DEBUG: board_modifier.py:107: Getting S22 footprint position: (180975000, 57150000)
-DEBUG: board_modifier.py:84: Searching for optional ST22 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
+DEBUG: key_placer.py:854: Placing additional elements for S40
+DEBUG: board_modifier.py:107: Getting S40 footprint position: (273843750, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST40 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
 DEBUG: board_modifier.py:89: Footprint not found
-INFO: edge_generator.py:149: Running board edge generation around footprints with annotation matching 'S{}' format
+DEBUG: key_placer.py:854: Placing additional elements for S42
+DEBUG: board_modifier.py:107: Getting S42 footprint position: (76200000, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST42 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S43
+DEBUG: board_modifier.py:107: Getting S43 footprint position: (95250000, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST43 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S44
+DEBUG: board_modifier.py:107: Getting S44 footprint position: (114300000, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST44 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S45
+DEBUG: board_modifier.py:107: Getting S45 footprint position: (145256250, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST45 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S46
+DEBUG: board_modifier.py:107: Getting S46 footprint position: (192881250, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST46 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S47
+DEBUG: board_modifier.py:107: Getting S47 footprint position: (228600000, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST47 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S48
+DEBUG: board_modifier.py:107: Getting S48 footprint position: (247650000, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST48 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S49
+DEBUG: board_modifier.py:107: Getting S49 footprint position: (266700000, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST49 footprint in D:\forkRepos\palindrome40xt\palindrome45xt\palindrome40xt3\palindrome40xt3.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
