@@ -2619,8 +2619,8 @@
 		)
 	)
 	(rectangle
-		(start 287.02 92.71)
-		(end 353.06 148.59)
+		(start 274.32 106.68)
+		(end 340.36 162.56)
 		(stroke
 			(width 0)
 			(type default)
@@ -2656,7 +2656,7 @@
 	)
 	(text "Alternate Solenoid socket \nfor short wires"
 		(exclude_from_sim no)
-		(at 298.958 101.092 0)
+		(at 286.258 115.062 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2848,7 +2848,7 @@
 		(uuid "4c653eee-6cae-489a-aee0-9126a24b53df")
 	)
 	(junction
-		(at 337.82 119.38)
+		(at 325.12 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4db02f7b-273a-4aed-94b3-9f575f58254a")
@@ -2884,7 +2884,7 @@
 		(uuid "564801eb-d588-469b-b323-8747a4739a69")
 	)
 	(junction
-		(at 327.66 118.11)
+		(at 314.96 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d0b7c50-7f95-4cf8-8993-7ca21d82ee92")
@@ -2920,7 +2920,7 @@
 		(uuid "6ea23422-46f5-4236-916c-d869e0121c93")
 	)
 	(junction
-		(at 327.66 107.95)
+		(at 314.96 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6fb8a76e-41b9-4de3-adf6-107afc319dc8")
@@ -3022,7 +3022,7 @@
 		(uuid "a8177a5a-8e57-4760-beb1-0e78a19a993e")
 	)
 	(junction
-		(at 337.82 107.95)
+		(at 325.12 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a93390b9-9c4d-4aab-8872-9693db455b25")
@@ -3196,15 +3196,15 @@
 		(uuid "ffabb501-836b-40c7-9384-e39612b4495f")
 	)
 	(no_connect
-		(at 322.58 115.57)
+		(at 309.88 129.54)
 		(uuid "2325ddbb-2587-458c-9b3f-9653d122d696")
 	)
 	(no_connect
-		(at 303.53 113.03)
+		(at 290.83 127)
 		(uuid "77714c38-8b3f-4d8b-91cc-3c715d9badb4")
 	)
 	(no_connect
-		(at 303.53 115.57)
+		(at 290.83 129.54)
 		(uuid "813221d9-b53f-42c1-b2b8-39bf55498b48")
 	)
 	(no_connect
@@ -3216,7 +3216,7 @@
 		(uuid "e14aea80-b8cf-42e0-ba40-4b672b145ba2")
 	)
 	(no_connect
-		(at 322.58 113.03)
+		(at 309.88 127)
 		(uuid "f23a61e3-2ed9-459e-8bb4-25081a2ae37f")
 	)
 	(wire
@@ -3441,7 +3441,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 119.38) (xy 337.82 119.38)
+			(xy 314.96 133.35) (xy 325.12 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3601,7 +3601,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 118.11) (xy 327.66 115.57)
+			(xy 314.96 132.08) (xy 314.96 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3671,7 +3671,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 115.57) (xy 308.61 118.11)
+			(xy 295.91 129.54) (xy 295.91 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3741,7 +3741,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 107.95) (xy 337.82 109.22)
+			(xy 325.12 121.92) (xy 325.12 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3831,7 +3831,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 118.11) (xy 327.66 118.11)
+			(xy 295.91 132.08) (xy 314.96 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3841,7 +3841,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 106.68) (xy 337.82 107.95)
+			(xy 325.12 120.65) (xy 325.12 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3851,7 +3851,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 107.95) (xy 327.66 113.03)
+			(xy 314.96 121.92) (xy 314.96 127)
 		)
 		(stroke
 			(width 0)
@@ -3941,7 +3941,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 127) (xy 317.5 127)
+			(xy 308.61 140.97) (xy 304.8 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3951,7 +3951,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 107.95) (xy 337.82 107.95)
+			(xy 314.96 121.92) (xy 325.12 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4011,7 +4011,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 116.84) (xy 337.82 119.38)
+			(xy 325.12 130.81) (xy 325.12 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4041,7 +4041,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 119.38) (xy 327.66 118.11)
+			(xy 314.96 133.35) (xy 314.96 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4151,7 +4151,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 113.03) (xy 308.61 107.95)
+			(xy 295.91 127) (xy 295.91 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4181,7 +4181,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 107.95) (xy 327.66 107.95)
+			(xy 295.91 121.92) (xy 314.96 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4281,7 +4281,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 135.89) (xy 337.82 132.08)
+			(xy 325.12 149.86) (xy 325.12 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4351,7 +4351,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 127) (xy 330.2 127)
+			(xy 313.69 140.97) (xy 317.5 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4421,7 +4421,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 119.38) (xy 337.82 121.92)
+			(xy 325.12 133.35) (xy 325.12 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4668,7 +4668,7 @@
 		)
 	)
 	(label "SOLENOID_EN"
-		(at 317.5 127 180)
+		(at 304.8 140.97 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4678,7 +4678,7 @@
 		)
 		(uuid "5672bc7f-372b-4f60-8295-2c8cca1dc2d0")
 		(property "SOLENOID_EN" ""
-			(at 317.5 128.27 0)
+			(at 304.8 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4710,7 +4710,7 @@
 		)
 	)
 	(label "+5V_SOL"
-		(at 337.82 106.68 0)
+		(at 325.12 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4720,7 +4720,7 @@
 		)
 		(uuid "87024566-57c9-41d4-9031-15f80872a4e3")
 		(property "+12V_SOL" ""
-			(at 337.82 107.95 0)
+			(at 325.12 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4836,7 +4836,7 @@
 		)
 	)
 	(label "GND"
-		(at 337.82 135.89 0)
+		(at 325.12 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4846,7 +4846,7 @@
 		)
 		(uuid "f6ed36ab-e90a-4c7d-a9c7-276754b31e47")
 		(property "GND" ""
-			(at 337.82 137.16 0)
+			(at 325.12 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7236,7 +7236,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:TIP120")
-		(at 335.28 127 0)
+		(at 322.58 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7245,7 +7245,7 @@
 		(fields_autoplaced yes)
 		(uuid "3fab1d85-cd1e-4343-8376-e32171b00909")
 		(property "Reference" "Q3"
-			(at 341.63 125.73 0)
+			(at 328.93 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7254,7 +7254,7 @@
 			)
 		)
 		(property "Value" "TIP120"
-			(at 341.63 128.27 0)
+			(at 328.93 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7263,7 +7263,7 @@
 			)
 		)
 		(property "Footprint" "ergodonk_simple_zero:TO-220-3_Horizontal_TabDown_ergodonk_simple_zero"
-			(at 340.36 128.905 0)
+			(at 327.66 142.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7274,7 +7274,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/TIP120-D.PDF"
-			(at 335.28 127 0)
+			(at 322.58 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7284,7 +7284,7 @@
 			)
 		)
 		(property "Description" "5A Ic, 60V Vce, Silicon Darlington Power NPN Transistor, TO-220"
-			(at 335.28 127 0)
+			(at 322.58 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10732,7 +10732,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 303.53 115.57 180)
+		(at 290.83 129.54 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10741,7 +10741,7 @@
 		(fields_autoplaced yes)
 		(uuid "99aad5dc-beac-4f8a-a149-b43ca3ae2291")
 		(property "Reference" "J1"
-			(at 304.165 107.95 0)
+			(at 291.465 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10749,7 +10749,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 304.165 110.49 0)
+			(at 291.465 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10757,7 +10757,7 @@
 			)
 		)
 		(property "Footprint" "ergodonk_simple_zero:PinHeader_1x02_P2.54mm_Vertical"
-			(at 303.53 115.57 0)
+			(at 290.83 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10766,7 +10766,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 303.53 115.57 0)
+			(at 290.83 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10775,7 +10775,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 303.53 115.57 0)
+			(at 290.83 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11736,7 +11736,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 322.58 115.57 180)
+		(at 309.88 129.54 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11745,7 +11745,7 @@
 		(fields_autoplaced yes)
 		(uuid "c1200a74-bc38-4d90-ba24-f13649b889fe")
 		(property "Reference" "J_SOL_1"
-			(at 323.215 107.95 0)
+			(at 310.515 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11753,7 +11753,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Female"
-			(at 323.215 110.49 0)
+			(at 310.515 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11761,7 +11761,7 @@
 			)
 		)
 		(property "Footprint" "ergodonk_simple_zero:PinHeader_1x02_P2.54mm_Vertical"
-			(at 322.58 115.57 0)
+			(at 309.88 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11770,7 +11770,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 322.58 115.57 0)
+			(at 309.88 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11779,7 +11779,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 322.58 115.57 0)
+			(at 309.88 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13903,7 +13903,7 @@
 	(symbol
 		(lib_name "R_Small_1")
 		(lib_id "Device:R_Small")
-		(at 323.85 127 90)
+		(at 311.15 140.97 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13912,7 +13912,7 @@
 		(fields_autoplaced yes)
 		(uuid "fd863ad9-a072-4060-822a-ea47139e2b84")
 		(property "Reference" "R4"
-			(at 323.85 121.92 90)
+			(at 311.15 135.89 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -13920,7 +13920,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 323.85 124.46 90)
+			(at 311.15 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13928,7 +13928,7 @@
 			)
 		)
 		(property "Footprint" "ergodonk_simple_zero:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 323.85 127 0)
+			(at 311.15 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13937,7 +13937,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 323.85 127 0)
+			(at 311.15 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13946,7 +13946,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 323.85 127 0)
+			(at 311.15 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14127,7 +14127,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4004")
-		(at 337.82 113.03 270)
+		(at 325.12 127 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14136,7 +14136,7 @@
 		(fields_autoplaced yes)
 		(uuid "ffb31e28-4d05-4254-9f5a-cf81b2191d1d")
 		(property "Reference" "D52"
-			(at 340.36 111.76 90)
+			(at 327.66 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14145,7 +14145,7 @@
 			)
 		)
 		(property "Value" "1N4004"
-			(at 340.36 114.3 90)
+			(at 327.66 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14154,7 +14154,7 @@
 			)
 		)
 		(property "Footprint" "ergodonk_simple_zero:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 333.375 113.03 0)
+			(at 320.675 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14163,7 +14163,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 337.82 113.03 0)
+			(at 325.12 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14172,7 +14172,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 337.82 113.03 0)
+			(at 325.12 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14181,7 +14181,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 337.82 113.03 0)
+			(at 325.12 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14190,7 +14190,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 337.82 113.03 0)
+			(at 325.12 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
