@@ -1,0 +1,61 @@
+### Footprint positions - created on 2025-09-11T00:22:34+1200 ###
+### Printed by KiCad version 9.0.4
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                     Package                                                PosX       PosY       Rot  Side
+C1        0.1uF                   C_0805_2012Metric                                  209.1375  -159.6375  -90.0000  bottom
+D1        Diode                   D_SOD-123                                           78.8175  -112.7675   90.0000  bottom
+D2        Diode                   D_SOD-123                                          102.6300  -112.7675   90.0000  bottom
+D3        Diode                   D_SOD-123                                          121.6800  -112.7675   90.0000  bottom
+D4        Diode                   D_SOD-123                                          140.7300  -112.7675   90.0000  bottom
+D5        Diode                   D_SOD-123                                          159.7800  -112.7675   90.0000  bottom
+D6        Diode                   D_SOD-123                                          168.1375  -118.6375   90.0000  bottom
+D7        Diode                   D_SOD-123                                          187.1375  -119.1375   90.0000  bottom
+D8        Diode                   D_SOD-123                                          194.6375  -119.1375   90.0000  bottom
+D9        Diode                   D_SOD-123                                          235.9800  -112.7675   90.0000  bottom
+D10       Diode                   D_SOD-123                                          255.0300  -112.7675   90.0000  bottom
+D11       Diode                   D_SOD-123                                          274.0800  -112.7675   90.0000  bottom
+D12       Diode                   D_SOD-123                                          293.1300  -112.7675   90.0000  bottom
+D13       Diode                   D_SOD-123                                          316.9425  -112.7675   90.0000  bottom
+D14       Diode                   D_SOD-123                                          345.6375  -112.6375   90.0000  bottom
+D15       Diode                   D_SOD-123                                           78.8175  -131.8175   90.0000  bottom
+D16       Diode                   D_SOD-123                                          105.0112  -131.8175   90.0000  bottom
+D17       Diode                   D_SOD-123                                          126.4425  -131.8175   90.0000  bottom
+D18       Diode                   D_SOD-123                                          145.4925  -131.8175   90.0000  bottom
+D19       Diode                   D_SOD-123                                          164.5425  -131.8175   90.0000  bottom
+D20       Diode                   D_SOD-123                                          183.5925  -131.8175   90.0000  bottom
+D21       Diode                   D_SOD-123                                          202.6425  -131.8175   90.0000  bottom
+D22       Diode                   D_SOD-123                                          213.6375  -139.1375  180.0000  bottom
+D23       Diode                   D_SOD-123                                          240.7425  -131.8175   90.0000  bottom
+D24       Diode                   D_SOD-123                                          259.7925  -131.8175   90.0000  bottom
+D25       Diode                   D_SOD-123                                          278.8425  -131.8175   90.0000  bottom
+D26       Diode                   D_SOD-123                                          297.8925  -131.8175   90.0000  bottom
+D27       Diode                   D_SOD-123                                          319.3237  -131.8175   90.0000  bottom
+D28       Diode                   D_SOD-123                                          345.6375  -131.6375   90.0000  bottom
+D29       Diode                   D_SOD-123                                           78.8175  -150.8675   90.0000  bottom
+D30       Diode                   D_SOD-123                                          109.7737  -150.8675   90.0000  bottom
+D31       Diode                   D_SOD-123                                          135.9675  -150.8675   90.0000  bottom
+D32       Diode                   D_SOD-123                                          155.0175  -150.8675   90.0000  bottom
+D33       Diode                   D_SOD-123                                          174.0675  -150.8675   90.0000  bottom
+D34       Diode                   D_SOD-123                                          182.1375  -156.6375   90.0000  bottom
+D35       Diode                   D_SOD-123                                          212.1675  -150.8675   90.0000  bottom
+D36       Diode                   D_SOD-123                                          231.2175  -150.8675   90.0000  bottom
+D37       Diode                   D_SOD-123                                          250.2675  -150.8675   90.0000  bottom
+D38       Diode                   D_SOD-123                                          269.3175  -150.8675   90.0000  bottom
+D39       Diode                   D_SOD-123                                          288.3675  -150.8675   90.0000  bottom
+D40       Diode                   D_SOD-123                                          314.5612  -150.8675   90.0000  bottom
+D41       Diode                   D_SOD-123                                          345.6375  -151.1375   90.0000  bottom
+D42       Diode                   D_SOD-123                                          116.9175  -169.9175   90.0000  bottom
+D43       Diode                   D_SOD-123                                          135.9675  -169.9175   90.0000  bottom
+D44       Diode                   D_SOD-123                                          155.0175  -169.9175   90.0000  bottom
+D45       Diode                   D_SOD-123                                          185.9737  -169.9175   90.0000  bottom
+D46       Diode                   D_SOD-123                                          233.5987  -169.9175   90.0000  bottom
+D47       Diode                   D_SOD-123                                          269.3175  -169.9175   90.0000  bottom
+D48       Diode                   D_SOD-123                                          288.3675  -169.9175   90.0000  bottom
+D49       Diode                   D_SOD-123                                          307.4175  -169.9175   90.0000  bottom
+D51       D_Schottky              D_SOD-123                                          208.6375  -165.1375  -90.0000  bottom
+JSOL1     Conn_01x02_MountingPin  JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal   181.1375  -109.4375   90.0000  bottom
+Q1        Q_NMOS_GDS              TO-220-3_Horizontal_TabDown                        199.5975  -163.9075    0.0000  bottom
+R1        100                     R_0805_2012Metric                                  199.6375  -157.6375  -90.0000  bottom
+R2        100k                    R_0805_2012Metric                                  196.1375  -163.1375   90.0000  bottom
+## End

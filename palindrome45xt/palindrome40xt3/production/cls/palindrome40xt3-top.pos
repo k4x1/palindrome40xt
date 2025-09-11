@@ -1,0 +1,55 @@
+### Footprint positions - created on 2025-09-11T00:22:34+1200 ###
+### Printed by KiCad version 9.0.4
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val         Package                      PosX       PosY       Rot  Side
+S1        m1          SW_Cherry_MX_1.00u_PCB    73.7375  -109.7375    0.0000  top
+S2        Esc         SW_Cherry_MX_1.00u_PCB    97.5500  -109.7375    0.0000  top
+S3        Q           SW_Cherry_MX_1.00u_PCB   116.6000  -109.7375    0.0000  top
+S4        W           SW_Cherry_MX_1.00u_PCB   135.6500  -109.7375    0.0000  top
+S5        E           SW_Cherry_MX_1.00u_PCB   154.7000  -109.7375    0.0000  top
+S6        R           SW_Cherry_MX_1.00u_PCB   173.7500  -109.7375    0.0000  top
+S7        T           SW_Cherry_MX_1.00u_PCB   192.8000  -109.7375    0.0000  top
+S8        Y           SW_Cherry_MX_1.00u_PCB   211.8500  -109.7375    0.0000  top
+S9        U           SW_Cherry_MX_1.00u_PCB   230.9000  -109.7375    0.0000  top
+S10       I           SW_Cherry_MX_1.00u_PCB   249.9500  -109.7375    0.0000  top
+S11       O           SW_Cherry_MX_1.00u_PCB   269.0000  -109.7375    0.0000  top
+S12       P           SW_Cherry_MX_1.00u_PCB   288.0500  -109.7375    0.0000  top
+S13       Backspace   SW_Cherry_MX_1.50u_PCB   311.8625  -109.7375    0.0000  top
+S14       m4          SW_Cherry_MX_1.00u_PCB   340.4375  -109.7375    0.0000  top
+S15       m2          SW_Cherry_MX_1.00u_PCB    73.7375  -128.7875    0.0000  top
+S16       Tab         SW_Cherry_MX_1.25u_PCB    99.9312  -128.7875    0.0000  top
+S17       A           SW_Cherry_MX_1.00u_PCB   121.3625  -128.7875    0.0000  top
+S18       S           SW_Cherry_MX_1.00u_PCB   140.4125  -128.7875    0.0000  top
+S19       D           SW_Cherry_MX_1.00u_PCB   159.4625  -128.7875    0.0000  top
+S20       F           SW_Cherry_MX_1.00u_PCB   178.5125  -128.7875    0.0000  top
+S21       G           SW_Cherry_MX_1.00u_PCB   197.5625  -128.7875    0.0000  top
+S22       H           SW_Cherry_MX_1.00u_PCB   216.6125  -128.7875    0.0000  top
+S23       J           SW_Cherry_MX_1.00u_PCB   235.6625  -128.7875    0.0000  top
+S24       K           SW_Cherry_MX_1.00u_PCB   254.7125  -128.7875    0.0000  top
+S25       L           SW_Cherry_MX_1.00u_PCB   273.7625  -128.7875    0.0000  top
+S26       ;           SW_Cherry_MX_1.00u_PCB   292.8125  -128.7875    0.0000  top
+S27       Enter       SW_Cherry_MX_1.25u_PCB   314.2437  -128.7875    0.0000  top
+S28       m5          SW_Cherry_MX_1.00u_PCB   340.4375  -128.7875    0.0000  top
+S29       m3          SW_Cherry_MX_1.00u_PCB    73.7375  -147.8375    0.0000  top
+S30       Shift       SW_Cherry_MX_1.75u_PCB   104.6937  -147.8375    0.0000  top
+S31       Z           SW_Cherry_MX_1.00u_PCB   130.8875  -147.8375    0.0000  top
+S32       X           SW_Cherry_MX_1.00u_PCB   149.9375  -147.8375    0.0000  top
+S33       C           SW_Cherry_MX_1.00u_PCB   168.9875  -147.8375    0.0000  top
+S34       V           SW_Cherry_MX_1.00u_PCB   188.0375  -147.8375    0.0000  top
+S35       B           SW_Cherry_MX_1.00u_PCB   207.0875  -147.8375    0.0000  top
+S36       N           SW_Cherry_MX_1.00u_PCB   226.1375  -147.8375    0.0000  top
+S37       M           SW_Cherry_MX_1.00u_PCB   245.1875  -147.8375    0.0000  top
+S38       ,           SW_Cherry_MX_1.00u_PCB   264.2375  -147.8375    0.0000  top
+S39       Up          SW_Cherry_MX_1.00u_PCB   283.2875  -147.8375    0.0000  top
+S40       Fn          SW_Cherry_MX_1.75u_PCB   309.4812  -147.8375    0.0000  top
+S41       m6          SW_Cherry_MX_1.00u_PCB   340.4375  -147.8375    0.0000  top
+S42       Ctrl        SW_Cherry_MX_1.00u_PCB   111.8375  -166.8875    0.0000  top
+S43       Windows     SW_Cherry_MX_1.00u_PCB   130.8875  -166.8875    0.0000  top
+S44       Alt         SW_Cherry_MX_1.00u_PCB   149.9375  -166.8875    0.0000  top
+S45       LeftSpace   SW_Cherry_MX_2.25u_PCB   180.8937  -166.8875    0.0000  top
+S46       RightSpace  SW_Cherry_MX_2.75u_PCB   228.5187  -166.8875    0.0000  top
+S47       Left        SW_Cherry_MX_1.00u_PCB   264.2375  -166.8875    0.0000  top
+S48       Down        SW_Cherry_MX_1.00u_PCB   283.2875  -166.8875    0.0000  top
+S49       Right       SW_Cherry_MX_1.00u_PCB   302.3375  -166.8875    0.0000  top
+## End
