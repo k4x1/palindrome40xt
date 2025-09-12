@@ -1,0 +1,18 @@
+{
+    "name": "Palindrome40xt",
+    "vendorId": "0x4B5A",
+    "productId": "0x0001",
+    "matrix": {
+        "rows": 5,
+        "cols": 14
+    },
+    "layouts":{ 
+        "keymap":[
+["M1",{x:0.25},"Esc","Q","W","E","R","T","Y","U","I","O","P",{w:1.5},"Backspace",{x:0.25},"M4"],
+["M2",{x:0.25,w:1.25},"Tab","A","S","D","F","G","H","J","K","L",":\n;",{w:1.25},"Enter",{x:0.25},"M5"],
+["M3",{x:0.25,w:1.75},"Shift","Z","X","C","V","B","N","M","<\n.","Up",{w:1.75},"Fn",{x:0.25,a:7},"M6"],
+[{x:2},"Ctrl","Alt","Super",{w:2.25},"Left Sp",{w:2.75},"Right Sp","Left","Down","Right"]
+
+        ]
+    }
+}
